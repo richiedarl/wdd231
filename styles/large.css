@@ -1,0 +1,28 @@
+@media (min-width: 768px) {
+  nav {
+    display: block;
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: left;
+  }
+
+  nav li {
+    border: none;
+  }
+
+  #menu {
+    display: none;
+  }
+
+  main {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 2rem;
+  }
+
+  .courses {
+    grid-column: span 2;
+  }
+}

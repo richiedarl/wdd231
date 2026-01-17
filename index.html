@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="WDD 231 Course Home Page">
+  <meta name="author" content="Darlington Okorie">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>WDD 231 - Home</title>
+
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/small.css">
+  <link rel="stylesheet" href="styles/large.css">
+
+  <script src="scripts/navigation.js" defer></script>
+  <script src="scripts/date.js" defer></script>
+  <script src="scripts/course.js" defer></script>
+</head>
+<body>
+
+<header>
+  <div class="header-content">
+    <img src="images/logo.png" alt="Site Logo" class="logo">
+    <span class="site-name">Darlington Okorie</span>
+    <button id="menu" aria-label="Toggle Navigation">&#9776;</button>
+  </div>
+</header>
+
+<nav id="nav">
+  <ul>
+    <li><a href="index.html" class="active">Home</a></li>
+    <li><a href="#">Chamber Project</a></li>
+    <li><a href="#">Final Project</a></li>
+  </ul>
+</nav>
+
+<main>
+  <h1>Home</h1>
+
+  <section class="about">
+    <h2>About Me</h2>
+    <p>
+      Massa facilisis per purus si imperdiet curae amet. Et fames lorem mi phasellus
+      congue nascetur enim consectetur sociosqu natoque risus.
+    </p>
+  </section>
+
+  <section class="photo">
+    <h2>Student Photo</h2>
+    <img src="images/profile.jpg" alt="Student Photo">
+  </section>
+
+  <section class="courses">
+    <h2>Web Certificate Courses</h2>
+
+    <div class="filters">
+      <button data-filter="all">All</button>
+      <button data-filter="wdd">WDD</button>
+      <button data-filter="cse">CSE</button>
+    </div>
+
+    <div id="course-list"></div>
+
+    <p class="credits">
+      Total credits for courses listed above is
+      <span id="totalCredits">0</span>
+    </p>
+  </section>
+</main>
+
+<footer>
+  <div class="socials">
+    <a href="https://github.com/richiedarl" aria-label="GitHub">GitHub</a>
+    <a href="https://linkedin.com/in/darlingtonokoriec" aria-label="LinkedIn">LinkedIn</a>
+    <a href="#" aria-label="X">X</a>
+  </div>
+
+  <p>
+    © <span id="currentyear"></span> Darlington Okorie • Nigeria
+  </p>
+
+  <p id="lastModified"></p>
+</footer>
+
+</body>
+</html>
