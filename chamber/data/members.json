@@ -1,0 +1,31 @@
+{
+  "members": [
+    {
+      "name": "Alpha Tech Solutions",
+      "address": "12 Innovation Way, City",
+      "phone": "+234 801 234 5678",
+      "website": "https://alphatech.com",
+      "image": "company1.webp",
+      "membership": 3,
+      "description": "Technology and software development company."
+    },
+    {
+      "name": "GreenFarm Organics",
+      "address": "45 Market Road, City",
+      "phone": "+234 802 345 6789",
+      "website": "https://greenfarm.com",
+      "image": "company2.webp",
+      "membership": 2,
+      "description": "Organic food supplier and distributor."
+    },
+    {
+      "name": "City Builders Ltd",
+      "address": "78 Industrial Ave, City",
+      "phone": "+234 803 456 7890",
+      "website": "https://citybuilders.com",
+      "image": "company3.webp",
+      "membership": 1,
+      "description": "Construction and infrastructure development."
+    }
+  ]
+}
