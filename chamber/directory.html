@@ -6,14 +6,15 @@
 
   <title>Chamber Directory | City Chamber of Commerce</title>
 
-  <meta name="description" content="Official business directory of the City Chamber of Commerce showcasing member organizations, services, and contact information.">
+  <meta name="description" content="Official business directory of the City Chamber of Commerce showcasing member organizations.">
   <meta name="author" content="Darlington Okorie">
 
   <!-- Open Graph / Facebook -->
   <meta property="og:title" content="City Chamber of Commerce Directory">
-  <meta property="og:description" content="Explore verified businesses and organizations that are members of the City Chamber of Commerce.">
-  <meta property="og:image" content="https://yourusername.github.io/wdd231/chamber/images/og-image.webp">
-  <meta property="og:url" content="https://yourusername.github.io/wdd231/chamber/directory.html">
+  <meta property="og:description" content="Explore verified businesses that are members of the City Chamber of Commerce.">
+  <meta property="og:image" content="images/og-image.webp">
+  
+  <meta property="og:url" content="https://richiedarl.github.io/wdd231/chamber/directory.html">
   <meta property="og:type" content="website">
 
   <!-- Favicon -->
@@ -30,37 +31,48 @@
 </head>
 <body>
 
-<header>
-  <h1>City Chamber of Commerce</h1>
+<header class="site-header">
+  <div class="header-content">
+    <h1>City Chamber of Commerce</h1>
+
+    <nav>
+      <ul class="nav-list">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="directory.html" class="active">Directory</a></li>
+        <li><a href="#">Discover</a></li>
+        <li><a href="#">Join</a></li>
+      </ul>
+    </nav>
+  </div>
 </header>
 
-<nav>
-  <ul>
-    <li><a href="../index.html">Home</a></li>
-    <li><a href="directory.html" class="active">Directory</a></li>
-    <li><a href="#">Discover</a></li>
-    <li><a href="#">Join</a></li>
-  </ul>
-</nav>
-
 <main>
-  <h2>Business Directory</h2>
+  <div class="content">
+    <h2>Business Directory</h2>
 
-  <div class="view-controls">
-    <button id="grid">Grid View</button>
-    <button id="list">List View</button>
+    <div class="view-controls">
+      <button id="grid">Grid View</button>
+      <button id="list">List View</button>
+    </div>
+
+    <section id="members" class="grid"></section>
   </div>
-
-  <section id="members" class="grid"></section>
 </main>
 
-<footer>
-  <p>Contact: info@citychamber.org | +234 800 000 0000</p>
-  <p>
-    © <span id="currentyear"></span> Darlington Okorie | WDD 231
-  </p>
-  <p id="lastModified"></p>
-</footer>
+    <footer>
+        <p>
+            &copy; <span id="currentyear"></span> Chamber of Commerce
+        </p>
+        <p id="lastModified"></p>
+    </footer>
+
+    <!-- JAVASCRIPT FILES -->
+    <script src="./scripts/date.js" defer></script>
+    <script src="./scripts/directory.js" defer></script>
+</body>
+</html>
+
+
 
 </body>
 </html>

@@ -3,9 +3,15 @@ const gridButton = document.getElementById("grid");
 const listButton = document.getElementById("list");
 
 async function getMembers() {
-  const response = await fetch("data/members.json");
-  const data = await response.json();
-  displayMembers(data.members);
+  try {
+    const response = await fetch("./data/members.json");
+    if (!response.ok) throw new Error("members.json not found");
+
+    const data = await response.json();
+    displayMembers(data.members);
+  } catch (error) {
+    console.error(error);
+  }
 }
 
 function displayMembers(members) {
@@ -20,20 +26,22 @@ function displayMembers(members) {
       <img src="images/${member.image}" alt="Logo of ${member.name}">
       <p>${member.address}</p>
       <p>${member.phone}</p>
-      <a href="${member.website}" target="_blank">Visit Website</a>
-      <p>Membership Level: ${member.membership}</p>
+      <a href="${member.website}" target="_blank" rel="noopener">Visit Website</a>
+      <p class="membership level-${member.membership}">
+        Membership Level: ${member.membership}
+      </p>
     `;
 
     membersContainer.appendChild(card);
   });
 }
 
-gridButton.addEventListener("click", () => {
+gridButton?.addEventListener("click", () => {
   membersContainer.classList.add("grid");
   membersContainer.classList.remove("list");
 });
 
-listButton.addEventListener("click", () => {
+listButton?.addEventListener("click", () => {
   membersContainer.classList.add("list");
   membersContainer.classList.remove("grid");
 });

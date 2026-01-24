@@ -1,31 +1,58 @@
 {
   "members": [
     {
-      "name": "Alpha Tech Solutions",
-      "address": "12 Innovation Way, City",
-      "phone": "+234 801 234 5678",
-      "website": "https://alphatech.com",
-      "image": "company1.webp",
+      "name": "Zikson Electricals & Electronics",
+      "address": "15 Zik Avenue, Awka, Anambra State",
+      "phone": "+234 803 214 7789",
+      "website": "https://zikson-electronics.com",
+      "image": "zikson.jpg",
       "membership": 3,
-      "description": "Technology and software development company."
+      "description": "Sales and servicing of electrical appliances, home electronics, and industrial equipment."
     },
     {
-      "name": "GreenFarm Organics",
-      "address": "45 Market Road, City",
-      "phone": "+234 802 345 6789",
-      "website": "https://greenfarm.com",
-      "image": "company2.webp",
+      "name": "Capital City Pharmacy",
+      "address": "23 Arthur Eze Avenue, Awka, Anambra State",
+      "phone": "+234 706 482 9013",
+      "website": "https://capitalcitypharmacy.ng",
+      "image": "capital-city.jpg",
       "membership": 2,
-      "description": "Organic food supplier and distributor."
+      "description": "Retail pharmacy providing prescription drugs, health products, and medical consultations."
     },
     {
-      "name": "City Builders Ltd",
-      "address": "78 Industrial Ave, City",
-      "phone": "+234 803 456 7890",
-      "website": "https://citybuilders.com",
-      "image": "company3.webp",
+      "name": "Omenife Legal Chambers",
+      "address": "4 Court Road, Awka, Anambra State",
+      "phone": "+234 812 667 4451",
+      "website": "https://omenifelegal.com",
+      "image": "legal.jpg",
       "membership": 1,
-      "description": "Construction and infrastructure development."
+      "description": "Full-service law firm specializing in corporate law, land documentation, and litigation."
+    },
+    {
+      "name": "Awka Prime Properties",
+      "address": "18 Regina Caeli Junction, Awka, Anambra State",
+      "phone": "+234 809 331 8820",
+      "website": "https://awkaprimeproperties.ng",
+      "image": "awkaprime.jpg",
+      "membership": 3,
+      "description": "Real estate agency offering property sales, rentals, and property management services."
+    },
+    {
+      "name": "Anambra Digital Hub",
+      "address": "Behind UNIZIK Gate, Awka, Anambra State",
+      "phone": "+234 701 928 3344",
+      "website": "https://anambradigitalhub.com",
+      "image": "digitalhubs.jpg",
+      "membership": 2,
+      "description": "Technology hub offering training, coworking space, and startup incubation services."
+    },
+    {
+      "name": "Unity Microfinance Bank",
+      "address": "2 Bank Lane, Awka, Anambra State",
+      "phone": "+234 802 774 9901",
+      "website": "https://unitymfb.ng",
+      "image": "unitybank.jpg",
+      "membership": 3,
+      "description": "Community-focused microfinance bank providing loans, savings, and SME financial services."
     }
   ]
 }

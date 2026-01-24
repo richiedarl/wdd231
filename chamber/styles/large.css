@@ -1,10 +1,32 @@
 @media (min-width: 768px) {
+
+  /* HEADER */
+  .header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  /* NAVIGATION */
+  .nav-list {
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+  }
+
+  .nav-list a {
+    padding: 0.5rem 1rem;
+  }
+
+  /* DIRECTORY GRID */
   #members.grid {
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   }
 
-  nav ul {
+  /* FOOTER */
+  .footer-content {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
   }
 }

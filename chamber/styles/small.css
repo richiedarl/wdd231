@@ -1,17 +1,49 @@
 body {
   font-family: Arial, sans-serif;
   margin: 0;
+  line-height: 1.5;
 }
 
-nav ul {
+/* HEADER */
+.site-header {
+  background-color: #e6e6e6;
+}
+
+.header-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.header-content h1 {
+  margin: 0;
+  font-size: 1.4rem;
+}
+
+/* NAVIGATION */
+.nav-list {
   list-style: none;
   padding: 0;
+  margin: 1rem 0 0;
 }
 
-nav a {
-  text-decoration: none;
-  padding: 1rem;
+.nav-list a {
   display: block;
+  padding: 0.75rem;
+  text-decoration: none;
+  color: #000;
+}
+
+.nav-list a.active {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/* MAIN CONTENT */
+.content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
 }
 
 .view-controls {
@@ -20,6 +52,7 @@ nav a {
   margin-bottom: 1rem;
 }
 
+/* DIRECTORY LAYOUT */
 #members.grid {
   display: grid;
   grid-template-columns: 1fr;
@@ -30,12 +63,41 @@ nav a {
   display: block;
 }
 
+/* MEMBER CARD */
 .member-card {
-  border: 1px solid #ccc;
+  background-color: #f2f2f2;
+  border-radius: 8px;
   padding: 1rem;
+  text-align: center;
 }
 
 .member-card img {
+  max-width: 150px;
   width: 100%;
-  max-width: 200px;
+  margin-bottom: 0.5rem;
+}
+
+.member-card h3 {
+  margin: 0.5rem 0;
+}
+
+.member-card .tagline {
+  font-style: italic;
+  font-size: 0.9rem;
+}
+
+/* FOOTER */
+.site-footer {
+  background-color: #e6e6e6;
+  margin-top: 2rem;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.footer-content p {
+  margin: 0.25rem 0;
 }
