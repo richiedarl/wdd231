@@ -7,6 +7,7 @@ const apiKey = "0ed929b7670b7afc2e5649cc96f255cb";
 
 const weatherURL = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&units=metric&appid=${apiKey}`;
 const forecastURL = `https://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&units=metric&appid=${apiKey}`;
+const awkadirectweatherURL = `https://api.openweathermap.org/data/2.5/weather?q=Awka&appid=${apiKey}`;
 
 async function getWeather() {
   try {
