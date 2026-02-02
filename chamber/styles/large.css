@@ -30,3 +30,27 @@
     align-items: center;
   }
 }
+
+@media (min-width: 768px) {
+
+  main {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .events-weather {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 1rem;
+  }
+
+  #spotlight-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .cta-button {
+    bottom: 2rem;
+    right: 2rem;
+    font-size: 1.1rem;
+  }
+}
