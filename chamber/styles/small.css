@@ -1,5 +1,5 @@
 body {
-  font-family: Arial, sans-serif;
+ font-family: "Roboto", sans-serif;
   margin: 0;
   line-height: 1.5;
 }
@@ -159,4 +159,20 @@ main section {
   max-width: 120px;
   margin: 0.5rem auto;
   display: block;
+}
+.footer-content {
+  display: grid;
+  gap: 1rem;
+  text-align: center;
+}
+
+.footer-social {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.footer-social img {
+  width: 32px;
+  height: auto;
 }

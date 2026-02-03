@@ -30,6 +30,21 @@
     align-items: center;
   }
 }
+@media (min-width: 768px) {
+  .footer-content {
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    text-align: left;
+  }
+
+  .footer-social {
+    justify-content: center;
+  }
+
+  .footer-meta {
+    text-align: right;
+  }
+}
 
 @media (min-width: 768px) {
 

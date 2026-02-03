@@ -21,9 +21,7 @@ function displayMembers(members) {
     const card = document.createElement("div");
     card.classList.add("member-card");
 
-    card.innerHTML = `
-      <h3>${member.name}</h3>
-      <img src="images/${member.image}" alt="Logo of ${member.name}">
+card.innerHTML = `
       <p>${member.address}</p>
       <p>${member.phone}</p>
       <a href="${member.website}" target="_blank" rel="noopener">Visit Website</a>
