@@ -22,6 +22,17 @@
   #members.grid {
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   }
+@media (min-width: 768px) {
+  .join-layout {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 2rem;
+  }
+
+  .membership-cards {
+    margin-top: 0;
+  }
+}
 
   /* FOOTER */
   .footer-content {

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Thank You | Awka Chamber</title>
+  <link rel="stylesheet" href="styles/small.css">
+</head>
+
+<body>
+
+<main class="content">
+  <h1>Thank You for Applying!</h1>
+
+  <p><strong>Name:</strong> <span id="name"></span></p>
+  <p><strong>Email:</strong> <span id="email"></span></p>
+  <p><strong>Phone:</strong> <span id="phone"></span></p>
+  <p><strong>Business:</strong> <span id="business"></span></p>
+  <p><strong>Submitted:</strong> <span id="time"></span></p>
+</main>
+
+<script>
+const params = new URLSearchParams(window.location.search);
+document.getElementById("name").textContent = `${params.get("first")} ${params.get("last")}`;
+document.getElementById("email").textContent = params.get("email");
+document.getElementById("phone").textContent = params.get("phone");
+document.getElementById("business").textContent = params.get("business");
+document.getElementById("time").textContent = params.get("timestamp");
+</script>
+
+</body>
+</html>
