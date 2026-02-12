@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Site Plan | Awka Chamber of Commerce</title>
+
+  <meta name="description" content="Website planning document for the Awka Chamber of Commerce project.">
+  <meta name="author" content="Darlington Okorie">
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --primary: #333333;
+      --secondary: #e6e6e6;
+      --accent: #004aad;
+    }
+
+    body {
+      margin: 0;
+      font-family: "Roboto", sans-serif;
+      line-height: 1.6;
+      background-color: var(--secondary);
+      color: #000;
+    }
+
+    header {
+      background-color: var(--primary);
+      color: #fff;
+      padding: 1.5rem;
+      text-align: center;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 2rem;
+      background-color: #ffffff;
+    }
+
+    h1, h2 {
+      color: var(--accent);
+    }
+
+    section {
+      margin-bottom: 2rem;
+    }
+
+    ul {
+      padding-left: 1.2rem;
+    }
+
+    .wireframe-box {
+      background-color: var(--secondary);
+      border: 2px solid var(--accent);
+      padding: 1rem;
+      margin-top: 1rem;
+    }
+
+    .wireframe-layout {
+      display: grid;
+      gap: 0.5rem;
+    }
+
+    .block {
+      background-color: #ffffff;
+      border: 1px solid var(--primary);
+      padding: 0.5rem;
+      text-align: center;
+      font-size: 0.9rem;
+    }
+
+    footer {
+      background-color: var(--primary);
+      color: #fff;
+      text-align: center;
+      padding: 1rem;
+    }
+
+    @media (min-width: 768px) {
+      .desktop-grid {
+        grid-template-columns: 2fr 1fr 1fr;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Awka Chamber of Commerce</h1>
+  <p>WDD 231 Website Project – Site Plan</p>
+</header>
+
+<main>
+
+  <!-- 1. SITE NAME -->
+  <section>
+    <h2>Site Name</h2>
+    <p><strong>Awka Chamber of Commerce</strong></p>
+    <p>
+      The name clearly represents a professional business organization serving Awka.
+      It establishes local identity, credibility, and recognition for businesses
+      operating within the region.
+    </p>
+  </section>
+
+  <!-- 2. SITE PURPOSE -->
+  <section>
+    <h2>Site Purpose</h2>
+    <p>
+      The purpose of the Awka Chamber of Commerce website is to provide a central
+      platform where local businesses can connect, gain visibility, and access
+      chamber services. The site will include a business directory, membership
+      application form, community event highlights, and spotlight promotions.
+    </p>
+  </section>
+
+  <!-- 3. SCENARIOS -->
+  <section>
+    <h2>Scenarios</h2>
+    <ul>
+      <li>How can I apply to become a member of the Awka Chamber of Commerce?</li>
+      <li>Where can I find contact information for local businesses in Awka?</li>
+    </ul>
+  </section>
+
+  <!-- 4. COLOR SCHEME -->
+  <section>
+    <h2>Color Scheme</h2>
+    <ul>
+      <li><strong>#333333 (Primary):</strong> Used for header, footer, and navigation areas.</li>
+      <li><strong>#e6e6e6 (Secondary):</strong> Used for background and section separation.</li>
+      <li><strong>#004aad (Accent Blue):</strong> Used for headings and call-to-action highlights.</li>
+    </ul>
+  </section>
+
+  <!-- 6. TYPOGRAPHY -->
+  <section>
+    <h2>Typography</h2>
+    <ul>
+      <li><strong>Roboto:</strong> Used for all headings and body text to maintain modern readability and consistency.</li>
+    </ul>
+  </section>
+
+  <!-- 7. WIREFRAME -->
+  <section>
+    <h2>Wireframe</h2>
+
+    <h3>Mobile View</h3>
+    <div class="wireframe-box">
+      <div class="wireframe-layout">
+        <div class="block">Header</div>
+        <div class="block">Navigation</div>
+        <div class="block">Hero Section</div>
+        <div class="block">Events</div>
+        <div class="block">Weather</div>
+        <div class="block">Spotlights</div>
+        <div class="block">Footer</div>
+      </div>
+    </div>
+
+    <h3>Desktop View</h3>
+    <div class="wireframe-box">
+      <div class="wireframe-layout desktop-grid">
+        <div class="block">Hero Section</div>
+        <div class="block">Events</div>
+        <div class="block">Weather</div>
+        <div class="block" style="grid-column: span 3;">Spotlights</div>
+        <div class="block" style="grid-column: span 3;">Footer</div>
+      </div>
+    </div>
+
+  </section>
+
+</main>
+
+<footer>
+  <p>© 2026 Darlington Okorie | WDD 231</p>
+</footer>
+
+</body>
+</html>
