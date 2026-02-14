@@ -4,6 +4,39 @@ body {
   line-height: 1.5;
 }
 
+.visitor-message {
+  background: #e6e6e6;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.discover-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-areas:
+    "card1"
+    "card2"
+    "card3"
+    "card4"
+    "card5"
+    "card6"
+    "card7"
+    "card8";
+}
+
+.discover-card {
+  background: #f2f2f2;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.discover-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+
 /* HEADER */
 .site-header {
   background-color: #e6e6e6;
