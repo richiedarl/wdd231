@@ -1,0 +1,12 @@
+[
+  {"id":1,"name":"Argungu Fishing Festival","location":"Kebbi State","month":"March","image":"argungu.jpg","description":"A colorful annual fishing festival celebrating local culture.","weather":"Sunny"},
+  {"id":2,"name":"Osun-Osogbo Festival","location":"Osogbo","month":"August","image":"osun.jpg","description":"Traditional Yoruba festival honoring the goddess Osun.","weather":"Warm and humid"},
+  {"id":3,"name":"Durbar Festival","location":"Kano","month":"July","image":"durbar.jpg","description":"Cultural horse riding festival showcasing local royalty.","weather":"Hot and dry"},
+  {"id":4,"name":"Calabar Carnival","location":"Cross River","month":"December","image":"calabar.jpg","description":"A month-long carnival with parades and performances.","weather":"Tropical rain"},
+  {"id":5,"name":"Lagos Jazz Festival","location":"Lagos","month":"November","image":"lagosjazz.jpg","description":"Music festival featuring international jazz performers.","weather":"Warm"},
+  {"id":6,"name":"Eyo Festival","location":"Lagos","month":"May","image":"eyo.jpg","description":"Colorful masquerade festival in Lagos Island.","weather":"Hot"},
+  {"id":7,"name":"New Yam Festival","location":"Enugu","month":"August","image":"yam.jpg","description":"Celebration of harvest and gratitude to the gods.","weather":"Warm"},
+  {"id":8,"name":"Sharo Festival","location":"Bauchi","month":"May","image":"sharo.jpg","description":"Fulani festival featuring traditional wrestling contests.","weather":"Sunny"},
+  {"id":9,"name":"Igbo New Year","location":"Eastern Nigeria","month":"January","image":"igbo.jpg","description":"Traditional Igbo cultural celebrations.","weather":"Cool"},
+  {"id":10,"name":"Sango Festival","location":"Oyo","month":"June","image":"sango.jpg","description":"Festival honoring the deity of thunder, Sango.","weather":"Warm"}
+]

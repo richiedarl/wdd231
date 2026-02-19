@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nigerian Festival Explorer | About</title>
+<meta name="description" content="About Nigerian Festival Explorer and contact form.">
+<meta name="author" content="Darlington Okorie">
+<link rel="icon" href="images/favicon.ico">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+
+<header>
+  <h1>Nigerian Festival Explorer</h1>
+  <nav>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="festivals.html">Festivals</a></li>
+      <li><a href="about.html">About</a></li>
+    </ul>
+    <button class="hamburger">&#9776;</button>
+  </nav>
+</header>
+
+<main>
+  <section class="about-section">
+    <h2>About This Site</h2>
+    <p>This site was created as a WDD 231 final project to showcase Nigerian festivals with interactive dynamic content using HTML, CSS, and JavaScript.</p>
+  </section>
+
+  <section class="contact-section">
+    <h2>Contact</h2>
+    <form action="form-action.html" method="GET" id="contactForm">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+      
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+</main>
+
+<footer>
+  <p>© 2026 Darlington Okorie | <a href="index.html">Home</a> | <a href="festivals.html">Festivals</a></p>
+</footer>
+
+<script src="scripts/main.js" type="module"></script>

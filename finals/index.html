@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nigerian Festival Explorer | Home</title>
+<meta name="description" content="Discover vibrant Nigerian festivals and cultural events.">
+<meta name="author" content="Darlington Okorie">
+<link rel="icon" href="images/favicon.ico">
+
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+
+<header>
+  <h1>Nigerian Festival Explorer</h1>
+  <nav>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="festivals.html">Festivals</a></li>
+      <li><a href="about.html">About</a></li>
+    </ul>
+    <button class="hamburger">&#9776;</button>
+  </nav>
+</header>
+
+<main>
+  <section class="hero">
+    <h2>Discover the vibrant festivals of Nigeria!</h2>
+    <p>Explore culture, music, and tradition across the country.</p>
+  </section>
+
+  <section class="featured">
+    <h2>Featured Festivals</h2>
+    <div id="featured-festivals" class="cards-container"></div>
+  </section>
+</main>
+
+<footer>
+  <p>© 2026 Darlington Okorie | <a href="about.html">About</a> | <a href="festivals.html">Festivals</a></p>
+</footer>
+
+<script type="module" src="scripts/main.js"></script>
+<script type="module">
+  import { loadFeaturedFestivals } from './scripts/data.js';
+  loadFeaturedFestivals();
+</script>
+
+</body>
+</html>

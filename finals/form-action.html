@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Form Submission | Nigerian Festival Explorer</title>
+<meta name="author" content="Darlington Okorie">
+<link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+
+<header>
+  <h1>Nigerian Festival Explorer</h1>
+  <nav>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="festivals.html">Festivals</a></li>
+      <li><a href="about.html">About</a></li>
+    </ul>
+    <button class="hamburger">&#9776;</button>
+  </nav>
+</header>
+
+<main>
+  <section class="form-response">
+    <h2>Form Submission Received</h2>
+    <p>Thank you for contacting us. Here is the information you submitted:</p>
+    <ul>
+      <li><strong>Name:</strong> <span id="submittedName"></span></li>
+      <li><strong>Email:</strong> <span id="submittedEmail"></span></li>
+      <li><strong>Message:</strong> <span id="submittedMessage"></span></li>
+    </ul>
+    <p><a href="about.html">Go back to About page</a></p>
+  </section>
+</main>
+
+<footer>
+  <p>© 2026 Darlington Okorie | <a href="index.html">Home</a> | <a href="festivals.html">Festivals</a></p>
+</footer>
+
+<script>
+  // Capture query string data (GET) for simple form display
+  const params = new URLSearchParams(window.location.search);
+  document.getElementById('submittedName').textContent = params.get('name') || 'N/A';
+  document.getElementById('submittedEmail').textContent = params.get('email') || 'N/A';
+  document.getElementById('submittedMessage').textContent = params.get('message') || 'N/A';
+</script>
+<script type="module" src="scripts/main.js"></script>
+</body>
+</html>
